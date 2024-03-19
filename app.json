@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "TaqaApp",
-    "slug": "TaqaApp",
+    "name": "Taqa",
+    "slug": "taqaapp",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -19,12 +19,18 @@
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
+        "foregroundImage": "./assets/icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.mohamedsellak.TaqaApp"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "de9f276f-608d-4c23-a823-fbdf19efdaa8"
+      }
     }
   }
 }
